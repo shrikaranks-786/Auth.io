@@ -1,0 +1,20 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variables
+.env
+
+docker-compose.yml
+dockerfile
+
+# Optional (common extras to ignore)
+*.log
+npm-debug.log*
+dist/
+coverage/
+.vscode/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
